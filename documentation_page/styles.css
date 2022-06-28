@@ -1,0 +1,61 @@
+@media (min-width: 768px) {
+  .flex {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+body {
+  margin: 0;
+}
+#navbar {
+  flex: 1;
+  border-right: 2px solid lightgray;
+}
+#main-doc {
+  flex: 3;
+}
+#navbar header {
+  text-align: center;
+  font-size: 36px;
+  padding: 10px;
+}
+
+.nav-link {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: block;
+  border-top: 2px solid lightgray;
+  padding: 10px;
+}
+.nav-link:last-child {
+  border-bottom: 2px solid lightgray;
+}
+
+.nav-link:hover {
+  font-weight: 700;
+}
+.main-section header {
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .main-section header {
+    text-align: left;
+  }
+}
+.main-section p {
+  line-height: 1.5;
+  margin-left: 20px;
+}
+.main-section code {
+  background-color: lightgray;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.main-section {
+  margin-right: 20px;
+}

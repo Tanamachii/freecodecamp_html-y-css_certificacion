@@ -1,0 +1,117 @@
+body {
+  background-color: #eeeeee;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #eeeeee;
+}
+#header-img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+}
+#nav-bar {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+#form {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+form h2 {
+  text-align: center;
+}
+form input {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+#email {
+  width: 30%;
+  margin: 0 auto;
+  border: none;
+  padding: 10px;
+}
+#submit {
+  width: 15%;
+  margin: 10px auto;
+  background-color: #f1c40e;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+}
+#features {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.feature {
+  display: flex;
+}
+.centrado {
+  width: 800px;
+  margin: 0 auto;
+}
+#pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  #pricing {
+    flex-direction: row;
+  }
+}
+.caja {
+  border: 1px solid lightgray;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-caja {
+  font-weight: 500;
+  font-size: 36px;
+  background-color: lightgray;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+.precio {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+.boton-caja {
+  border: 1px solid black;
+  text-decoration: none;
+  color: white;
+  background-color: #f1c40e;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.footer {
+  margin-top: 20px;
+  background-color: lightgray;
+  padding: 20px;
+  width: 100%;
+}

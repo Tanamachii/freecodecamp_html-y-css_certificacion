@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<body>
+    <h1 id="title">Formulario</h1>
+    <p id="description">Proyecto de formulario para freecodecamp</p>
+    <form type="submit" id="survey-form">
+        <label for="name" id="name-label">Nombre</label>
+        <input class="block" type="text" id="name" required placeholder="Nombre">
+        <label for="email" id="email-label">Correo</label>
+        <input class="block" type="email" id="email" required placeholder="Tu correo">
+        <label for="number" id="number-label">Número</label>
+        <input class="block" type="number" id="number" min="1" max="10" placeholder="Elige un número">
+        <label for="dropdown">Elige una opcion</label>
+        <select id="dropdown">
+            <option selected> Cuanto ganas:</option>
+            <option>500k</option>
+            <option>1000k</option>
+            <option>0</option>
+        </select>
+        <h4>Estatus:</h4>
+        <div class="checkbox">
+            <label for="checkA">
+                Soltero
+                <input type="radio" value="A" name="check" id="checkA" />
+            </label>
+            <label for="checkB">
+                Casado
+                <input type="radio" value="B" name="check" id="checkB" />
+            </label>
+        </div>
+        <div class="radio">
+            <label for="sqrA">
+                Egresado
+                <input type="checkbox" value="A" id="sqrA">
+            </label>
+            <label for="sqrB">
+                Trabajando
+                <input type="checkbox" value="B" id="sqrB">
+            </label>
+        </div>
+        <textarea name="textarea" id="textarea" cols="30" rows="10">Comentarios Adicionales</textarea>
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+</body>
+
+</html>

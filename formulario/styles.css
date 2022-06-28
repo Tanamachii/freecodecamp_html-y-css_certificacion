@@ -1,0 +1,24 @@
+#title {
+  text-align: center;
+}
+.block {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.checkbox,
+.radio {
+  display: inline;
+}
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+}
+h4 {
+  margin: 20px 0 0 0;
+}
